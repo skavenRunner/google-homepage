@@ -1,3 +1,29 @@
+.space30  {
+    height: 30vh;
+}
+
+.mainBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchBox {
+    margin: 20px auto 0px auto;
+    display: block;
+    width: 60vw;
+}
+
+.submitButtons {
+    display: flex;
+    justify-content:center;
+    margin-top: 3vh;
+}
+
+#submitButton1 {
+    margin-right: 30px;
+}
+
 ul {
     list-style-type: none;
 }
