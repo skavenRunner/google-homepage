@@ -45,7 +45,7 @@ footer ul li{
     bottom: 0px;
     left: 0px;
     position:absolute;
-    width: 50%;
+    width: 500px;
     justify-content: space-around;
     padding-left: 0px;
 }
@@ -56,11 +56,12 @@ footer ul li{
     bottom: 0px;
     right: 0px;
     position: absolute;
-    width:40%;
+    box-sizing:border-box;
+    width: 350px;
     justify-content: space-around;
 }
 
-@media (max-width: 740px) {
+@media (max-width: 775px) {
     #leftFooter {
         flex-direction: column;
     }
