@@ -47,18 +47,24 @@ footer ul li{
     position:absolute;
     width: 50%;
     justify-content: space-around;
+    padding-left: 0px;
 }
 
-@media (max-width: 600px) {
-    #leftFooter {
-        flex-direction: column;
-    }
-}
+
 
 #rightFooter {
     bottom: 0px;
     right: 0px;
     position: absolute;
-    width:30%;
+    width:40%;
     justify-content: space-around;
+}
+
+@media (max-width: 740px) {
+    #leftFooter {
+        flex-direction: column;
+    }
+    #rightFooter {
+        width: 60%;
+    }
 }
