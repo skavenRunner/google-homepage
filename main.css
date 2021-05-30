@@ -56,8 +56,13 @@ nav ul li {
 }
 
 footer {
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.1);
     display: flex;
-    flex-direction: row;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 100%;
 }
 
 footer ul {
@@ -69,25 +74,19 @@ footer ul li{
 }
 
 #leftFooter {
-    bottom: 0px;
     left: 0px;
-    position:absolute;
     width: 500px;
     justify-content: space-around;
     padding-left: 0px;
-    padding-bottom: 15px;
 }
 
 
 
 #rightFooter {
-    bottom: 0px;
-    right: 0px;
     position: absolute;
-    box-sizing:border-box;
+    right: 0px;
     width: 350px;
     justify-content: space-around;
-    padding-bottom: 15px;
     padding-right: 0px;
 }
 
