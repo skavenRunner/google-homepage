@@ -13,10 +13,36 @@ html {
     align-items: center;
 }
 
-.searchBox {
+.searchBoxAndIcon {
+    display: flex;
     margin: 20px auto 0px auto;
-    display: block;
-    width: 60vw;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.15);
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 5px;
+    width: 600px;
+    flex-shrink: 1;
+}
+
+.searchBox {
+    flex-shrink: 1;
+    width: 93%;
+    height: 30px;
+    border-style: none;
+}
+
+.searchBoxHolder {
+    display: flex;
+    width: 90vw;
+    margin: 0px auto 0px auto;
+}
+
+#searchIcon {
+    position: relative;
+    top: 4px;
+    left: 2px;
+    color: rgba(0, 0, 0, 0.50)
 }
 
 .submitButtons {

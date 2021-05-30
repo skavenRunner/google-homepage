@@ -25,8 +25,13 @@
     <div class="mainBody">
     <img class="googleImage" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
 <form>
-    <input class="searchBox" type="text" tabindex="1" placeholder="Type inside me to search!"><br>
-        <div class="submitButtons">
+    <div class="searchBoxHolder">
+    <div class="searchBoxAndIcon">
+    <span id="searchIcon" class="material-icons">search</span>
+    <input class="searchBox" type="text" tabindex="1" placeholder="    Type inside me to search!"><br>
+    </div>
+    </div>
+    <div class="submitButtons">
         <button id="submitButton1" name="searchNormal" tabindex="2" value="searchNormal">Search with Google</button>
         <button id="submitButton2" name="searchLucky" tabindex="3" value="searchLucky">I'm feeling lucky</button>
         </div>
