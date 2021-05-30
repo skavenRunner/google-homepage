@@ -43,9 +43,10 @@ nav ul {
     flex-direction: row;
     position: absolute;
     justify-content: space-evenly;
-    align-items:flex-start;
+    align-items:center;
     
     right: 0px;
+    padding-top: 15px;
     width: 300px;
 }
 
@@ -74,6 +75,7 @@ footer ul li{
     width: 500px;
     justify-content: space-around;
     padding-left: 0px;
+    padding-bottom: 15px;
 }
 
 
@@ -85,11 +87,14 @@ footer ul li{
     box-sizing:border-box;
     width: 350px;
     justify-content: space-around;
+    padding-bottom: 15px;
+    padding-right: 0px;
 }
 
 @media (max-width: 775px) {
     #leftFooter {
         flex-direction: column;
+        width: 40%;
     }
     #rightFooter {
         width: 60%;
