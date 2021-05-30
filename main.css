@@ -63,6 +63,7 @@ footer {
     padding-bottom: 15px;
     padding-top: 15px;
     width: 100%;
+    justify-content: space-between;
 }
 
 footer ul {
@@ -83,19 +84,22 @@ footer ul li{
 
 
 #rightFooter {
-    position: absolute;
-    right: 0px;
     width: 350px;
     justify-content: space-around;
     padding-right: 0px;
 }
 
-@media (max-width: 775px) {
+@media (max-width: 810px) {
     #leftFooter {
         flex-direction: column;
         width: 40%;
+        padding-left: 15px;
     }
     #rightFooter {
         width: 60%;
+        flex-direction: column;
+        padding-right: 15px;
+        align-items: flex-end;
+        justify-content: space-between;
     }
 }
