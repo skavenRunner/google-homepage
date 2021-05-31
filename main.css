@@ -45,10 +45,17 @@ html {
     color: rgba(0, 0, 0, 0.50)
 }
 
-.submitButtons {
+.submitButtonsHolder {
     display: flex;
     justify-content:center;
     margin-top: 3vh;
+}
+
+.submitButtons {
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.04);
+    border-color: transparent;
+    padding: 5px 15px 5px 15px;
 }
 
 #submitButton1 {
